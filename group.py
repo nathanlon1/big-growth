@@ -1,12 +1,5 @@
 
-def bigGrowth():
-    NathanHanlon()
-    print()
-    MylesSteinMetz()
-
-bigGrowth()
-
-def NathanHanlon():
+def nathanHanlon():
     print("My name is Nathan Hanlon")
     print("I am a Sophomore at the University of Montana")
     print("I am majoring in Computer Science")
@@ -15,9 +8,18 @@ def NathanHanlon():
     print("When I was 6 years old, I had a seizure in a parking lot.")
 
 
-def MylesSteinmetz():
-    print("Myles Steinmetz:")
-    print("I am in my senior year")
+def mylesSteinmetz():
+    print("My name is Myles Steinmetz")
+    print("I am in my senior year at the University of Montana")
     print("I am majoring in computer science")
     print("My hobbies include playing guitar and drums, hiking and backpacking")
     print("I grew up in Havre Montana, a small town just south of the Canadian border")
+
+def bigGrowth():
+    print("The group 'Big Growth' consists of Nathan Hanlon and Myles Steinmetz")
+    nathanHanlon()
+    print()
+    mylesSteinmetz()
+
+
+bigGrowth()
